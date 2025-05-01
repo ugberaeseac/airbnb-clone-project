@@ -110,4 +110,12 @@ The **Airbnb Clone Project** is a comprehensive, real-world application designed
 
 ---
 
+## CI/CD Pipeline
 
+**CI/CD (Continuous Integration and Continuous Deployment)** automates code integration, testing, and deployment. This helps ensure faster delivery, early bug detection, and a consistent release process.
+
+### Tools:
+- **GitHub Actions**: Automates workflows for testing, linting, and deployment.
+- **Docker**: Ensures consistent containerized environments across dev/staging/prod.
+
+---
