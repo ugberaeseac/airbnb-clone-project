@@ -22,4 +22,17 @@ The **Airbnb Clone Project** is a comprehensive, real-world application designed
 - **DevOps Engineer**: Set up and manage infrastructure, Docker containers, CI/CD pipelines, and deployment automation.
 - **QA Engineer**: Write test cases, perform manual and automated testing to ensure backend reliability and correctness.
 
----# airbnb-clone-project
+---
+
+## Technology Stack
+
+- **Django**: A high-level Python web framework used to build the core backend and business logic.
+- **Django REST Framework (DRF)**: A toolkit for building RESTful APIs quickly and flexibly.
+- **PostgreSQL**: A robust relational database system to store and manage application data.
+- **GraphQL**: A query language to provide efficient, flexible, and precise data retrieval for clients.
+- **Celery**: Manages asynchronous tasks like email notifications or delayed operations.
+- **Redis**: Used for caching and managing Celery queues and session data.
+- **Docker**: Provides consistent development and production environments via containerization.
+- **CI/CD Pipelines**: Automates testing, building, and deployment to improve code reliability and delivery speed.
+
+---
