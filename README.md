@@ -94,3 +94,20 @@ The **Airbnb Clone Project** is a comprehensive, real-world application designed
 - **Data Optimization**: Query optimization, indexing, and caching to improve performance and scalability.
 
 ---
+
+## API Security
+
+- **Authentication**: Secure token-based authentication (e.g., JWT) to verify users.
+- **Authorization**: Role-based access control to ensure only hosts can manage listings and guests can make bookings.
+- **Rate Limiting**: Prevent abuse by limiting the number of API requests per user/IP.
+- **Data Validation**: Prevent injection attacks and invalid inputs through strict schema enforcement.
+- **Secure Payments**: Use encryption and third-party payment gateways to protect financial data.
+
+**Why Security Matters**:
+- Protects sensitive user data (personal info, payment details).
+- Ensures platform integrity and trust.
+- Prevents financial fraud and unauthorized access.
+
+---
+
+
