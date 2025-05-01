@@ -36,3 +36,50 @@ The **Airbnb Clone Project** is a comprehensive, real-world application designed
 - **CI/CD Pipelines**: Automates testing, building, and deployment to improve code reliability and delivery speed.
 
 ---
+
+## Database Design
+
+### Key Entities and Fields:
+
+1. **Users**
+   - `id`
+   - `name`
+   - `email`
+   - `password_hash`
+   - `is_host`
+
+2. **Properties**
+   - `id`
+   - `user_id` (foreign key to Users)
+   - `title`
+   - `description`
+   - `location`
+
+3. **Bookings**
+   - `id`
+   - `user_id` (foreign key to Users)
+   - `property_id` (foreign key to Properties)
+   - `start_date`
+   - `end_date`
+
+4. **Reviews**
+   - `id`
+   - `user_id`
+   - `property_id`
+   - `rating`
+   - `comment`
+
+5. **Payments**
+   - `id`
+   - `booking_id` (foreign key to Bookings)
+   - `amount`
+   - `status`
+   - `transaction_date`
+
+### Relationships:
+- A **User** can create multiple **Properties**.
+- A **Booking** is made by a **User** for a **Property**.
+- A **Property** can have multiple **Reviews**.
+- A **Payment** is linked to a specific **Booking**.
+
+---
