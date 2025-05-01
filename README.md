@@ -83,3 +83,14 @@ The **Airbnb Clone Project** is a comprehensive, real-world application designed
 - A **Payment** is linked to a specific **Booking**.
 
 ---
+
+## Feature Breakdown
+
+- **User Management**: Secure authentication and role-based access (guest or host), allowing users to manage profiles and sessions.
+- **Property Management**: Hosts can add and manage property listings, including location, pricing, and availability.
+- **Booking System**: Guests can search, view, and book properties with calendar-based availability.
+- **Payment Integration**: Handle secure transactions for bookings and keep track of payment history.
+- **Review System**: Guests can rate and review properties after stays, contributing to platform trustworthiness.
+- **Data Optimization**: Query optimization, indexing, and caching to improve performance and scalability.
+
+---
